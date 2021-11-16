@@ -1,3 +1,122 @@
-
+:root {
+  --dark-blue: #2d314d;
+  --lime-green: #31d35c;
+  --bright-cyan: #2bb7da;
+  --grayish-blue: #9698a6;
+  --light-grayish-blue: #f3f4f6;
+  --very-light-gray: #fafafa;
+  --white: #ffffff;
+}
+  
+  
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
+
+  /* Override default style and set padding and margin to nothing */
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+  font-family: 'Public Sans', sans-serif;
+  }
+
+  a {
+    color: var(--grayish-blue);
+    text-decoration: none;
+  }
+
+  /* common elements */
+  button {
+    background-image: linear-gradient(to right, var(--lime-green), var(--bright-cyan));
+    padding: 5px;
+    border: none;
+    border-radius: 17px;
+    width: 130px;
+    height: 34px;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--white);
+  }
+
+  p {
+    color: var(--grayish-blue);
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 45px;
+    font-weight: 400;
+    color: var(--dark-blue);
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--dark-blue);
+  }
+
+  /* img {
+    width: 100%;
+  } */
+
+  li {
+    list-style-type: none;
+  }
+
+  /* hero section */
+  .hero-section {
+    background-color: var(--very-light-gray);
+  }
+
+  .value-title {
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--dark-blue);
+  }
+
+  /* value-section */
+  .value-section {
+    background-color: var(--light-grayish-blue);
+  }
+
+  .article-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--dark-blue);
+  }
+
+  .article-author {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .article-description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  /* latestt articles section */
+  .articles-list {
+    background-color: var(--very-light-gray);
+  }
+
+  /* footer */
+  .footer {
+    background-color: var(--dark-blue);
+  }
+
+  .footer-link li a{
+    color: var(--white);
+    font-weight: 300;
+  }
+
+  .copy-right{
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+ 
